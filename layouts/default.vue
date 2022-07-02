@@ -21,11 +21,6 @@
                     'bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium' : $route.name === 'categories',
                     'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium' : $route.name !== 'categories'
                   }">Categorias</NuxtLink>
-                 <!--  <a href="#"
-                    aria-current="page">Home</a>
-
-                  <a href="#"
-                    >Categorias</a> -->
                 </div>
               </div>
             </div>

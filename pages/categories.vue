@@ -50,16 +50,23 @@
             </td>
           </tr>
 
-          <tr class="bg-white">
+          <tr
+          v-for="category in categories" :key="category.id" 
+          class="bg-white"
+          >
             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-              Categoria 2
+              {{ category.name }}
             </td>
 
             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-4">
               <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit
               </a>
 
-              <a href="#" class="text-red-600 hover:text-red-900">Excluir
+              <a 
+              href="#" 
+              class="text-red-600 hover:text-red-900"
+              @click.stop.prevent="deleteCategory(category.id)"
+              >Excluir
               </a>
             </td>
           </tr>
@@ -84,10 +91,20 @@ export default {
     AppFormLabel,
   },
 
+  async asyncData({ store }) {
+    return {
+      categories: await store.dispatch('categories/getCategories')
+    }
+  },
+
   data() {
     return {};
   },
 
-  methods: {},
+  methods: {
+    deleteCategory(id) {
+      this.$store.dispatch('categories/deleteCategory', id)
+    }
+  },
 };
 </script>
