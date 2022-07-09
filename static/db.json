@@ -34,26 +34,12 @@
       "amount": 750,
       "date": "2022-01-07",
       "categoryId": 3
-    },
-    {
-      "id": 6,
-      "description": "Cinema",
-      "amount": 60,
-      "date": "2022-01-10",
-      "categoryId": 4
-    },
-    {
-      "id": 7,
-      "description": "Restaurante",
-      "amount": 100,
-      "date": "2022-01-10",
-      "categoryId": 4
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Equipamentos de TI, assinatura de softwares e cursos"
+      "name": "Equipamentos de TI, assinatura de softwares e cursos diversos"
     },
     {
       "id": 2,
@@ -62,10 +48,6 @@
     {
       "id": 3,
       "name": "Impostos"
-    },
-    {
-      "id": 4,
-      "name": "Entretenimento"
     }
   ]
 }
