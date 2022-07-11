@@ -10,7 +10,7 @@
     {
       "id": 2,
       "description": "Curso Laravel PRO",
-      "amount": 19.90,
+      "amount": 19.9,
       "date": "2022-01-01",
       "categoryId": 1
     },
@@ -53,8 +53,50 @@
       "id": 8,
       "description": "Google stcok",
       "amount": 100,
-      "date": "2022-01-15",
-      "categoryId": 5
+      "date": "2022-01-09",
+      "categoryId": 1
+    },
+    {
+      "date": "2022-07-19",
+      "amount": "-1100",
+      "description": "Sushi",
+      "categoryId": 4,
+      "id": 9
+    },
+    {
+      "date": "2022-07-11",
+      "amount": "-108",
+      "description": "Sushi",
+      "categoryId": 4,
+      "id": 10
+    },
+    {
+      "date": "2022-07-19",
+      "amount": "600",
+      "description": "Freela",
+      "categoryId": 2,
+      "id": 11
+    },
+    {
+      "date": "2022-07-12",
+      "amount": "800",
+      "description": "Freela",
+      "categoryId": "2",
+      "id": 12
+    },
+    {
+      "date": "2022-07-18",
+      "amount": "1200",
+      "description": "Freela",
+      "categoryId": "2",
+      "id": 13
+    },
+    {
+      "date": "2022-07-19",
+      "amount": "1200",
+      "description": "Site",
+      "categoryId": "2",
+      "id": 14
     }
   ],
   "categories": [
